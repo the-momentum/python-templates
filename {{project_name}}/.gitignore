@@ -152,3 +152,6 @@ volumes
 
 # SSL certificates
 *.pem
+
+# Streamlit secrets
+.streamlit/

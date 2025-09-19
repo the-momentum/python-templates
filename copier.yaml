@@ -64,6 +64,7 @@ _exclude:
   - "{{ '*/app/api' if project_type not in ['api-microservice', 'agent'] else '' }}"
 
   - "{{ '*/app/agent.py' if project_type != 'agent' else '' }}"
+  - "{{ '*/app/gui.py' if project_type != 'agent' else '' }}"
 
   - "{{ '*/app/api.py' if project_type != 'api-monolith' else '' }}"
   - "{{ '*/app/user' if project_type != 'api-monolith' else '' }}"
